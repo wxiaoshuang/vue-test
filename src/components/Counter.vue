@@ -19,11 +19,11 @@ export default {
     increment () {
       this.count++
     },
-     incrementByAsync () {
-        window.setTimeout(() => {
-          this.count++;
-        }, 1000) 
-      }
+    incrementByAsync () {
+      window.setTimeout(() => {
+        this.count++
+      }, 1000)
+    }
   }
 }
 </script>
